@@ -7,7 +7,7 @@ import { BiTimeFive } from "react-icons/bi";
 import SongCard from "./songCard";
 import { dataContext } from "../Context/dataContext";
 
-const MainAlbum = ({ songs, coverImage, albumAddress }: any) => {
+const MainAlbum = ({ songs, coverImage, albumAddress }) => {
   const { setOpenPlayer, setAlbumToPlay, fetching } = useContext(dataContext);
   return (
     <>
@@ -66,7 +66,7 @@ const MainAlbum = ({ songs, coverImage, albumAddress }: any) => {
           <hr className="border-[#3e3d3d] mb-[8px]" />
           <div className="flex flex-col">
             {songs?.length > 0 && !fetching ? (
-              songs.map((song: any, i: any) => {
+              songs.map((song, i) => {
                 return (
                   <SongCard
                     image={song.image}
