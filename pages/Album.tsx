@@ -3,7 +3,7 @@ import Head from "next/head";
 import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
 import MainAlbum from "../components/MainAlbum";
-import { dataContext } from "../Context/dataContext";
+import { dataContext } from "../Context/DataContext";
 import { useWeb3Contract } from "react-moralis";
 import { abi } from "../utils/address";
 import axios from "axios";
