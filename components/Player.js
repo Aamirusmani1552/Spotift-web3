@@ -3,7 +3,7 @@ import React, { useContext, useState } from "react";
 import AudioControls from "../components/AudioControls";
 import { HiOutlineVolumeUp } from "react-icons/hi";
 import useAudio from "../hooks/useAudio";
-import { dataContext } from "../Context/dataContext";
+import { dataContext } from "../Context/DataContext";
 import { BiVolumeMute } from "react-icons/bi";
 
 const Player = () => {
