@@ -4,7 +4,7 @@ import songImage from "../public/Laal-Ishq-Cover.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
 import { BiTimeFive } from "react-icons/bi";
-import SongCard from "./songCard";
+import SongCard from "./SongCard";
 import { dataContext } from "../Context/DataContext";
 
 const MainAlbum = ({ songs, coverImage, albumAddress }) => {
