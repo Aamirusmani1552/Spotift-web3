@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { MoralisProvider } from "react-moralis";
-import DataContext from "../Context/dataContext";
+import DataContext from "../Context/DataContext";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import CreatePlayer from "../components/CreatePlayer";
 
