@@ -7,7 +7,7 @@ import { useWeb3Contract } from "react-moralis";
 import { abi } from "../utils/address";
 import { useMoralis } from "react-moralis";
 import { useEffect, useState, useContext } from "react";
-import { dataContext } from "../Context/dataContext";
+import { dataContext } from "../Context/DataContext";
 import useIPFS from "./useIPFS";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
