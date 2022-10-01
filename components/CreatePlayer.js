@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { useMoralis } from "react-moralis";
-import { dataContext } from "../Context/dataContext";
+import { dataContext } from "../Context/DataContext";
 import Player from "./Player";
 
 const CreatePlayer = () => {
