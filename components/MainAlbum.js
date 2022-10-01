@@ -5,7 +5,7 @@ import { BsFillPlayCircleFill } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
 import { BiTimeFive } from "react-icons/bi";
 import SongCard from "./songCard";
-import { dataContext } from "../Context/dataContext";
+import { dataContext } from "../Context/DataContext";
 
 const MainAlbum = ({ songs, coverImage, albumAddress }) => {
   const { setOpenPlayer, setAlbumToPlay, fetching } = useContext(dataContext);
