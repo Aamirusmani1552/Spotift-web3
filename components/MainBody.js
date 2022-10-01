@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Card from "./Card";
 import { albumAddresses } from "../utils/address";
-import { dataContext } from "../Context/dataContext";
+import { dataContext } from "../Context/DataContext";
 
 const MainBody = () => {
   const { allAlbums } = useContext(dataContext);
