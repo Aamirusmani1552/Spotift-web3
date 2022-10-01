@@ -6,7 +6,7 @@ import MainBody from "../components/MainBody";
 import { useQuery } from "@apollo/client";
 import GET__ALBUMS from "../components/albumQuery";
 import { useContext, useEffect, useState } from "react";
-import { dataContext } from "../Context/dataContext";
+import { dataContext } from "../Context/DataContext";
 import { useMoralis } from "react-moralis";
 
 const Home: NextPage = () => {
